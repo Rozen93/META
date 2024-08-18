@@ -1,0 +1,99 @@
+.tab {
+	overflow: hidden;
+	margin-top: 2.7rem;
+}
+
+.tab button {
+	background-color: black;
+	color: white;
+	border: 2px solid transparent;
+	outline: none;
+	cursor: pointer;
+	padding: 1rem 2rem;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 1.8px;
+	font-family: 'Roboto', sans-serif;
+	transition: all 0.3s ease;
+	margin: .4rem 7px;
+}
+
+
+
+
+
+/* .tab button:hover {
+			background-color: white;
+			border-color: black;
+			color: black;
+		} */
+
+.tab button.active {
+	background-color: #fff;
+	color: black;
+	border-color: black;
+}
+
+.tabcontent {
+	background: #fff;
+	display: none;
+	padding: 6px 12px;
+	font-family: arial;
+	line-height: 21px;
+}
+
+
+
+
+.content h1 {
+	font-size: 1.4rem;
+}
+
+#hero p {
+	font-size: 1.15rem;
+}
+
+@media only screen and (min-width: 25em) {
+	/* small 400px */
+
+}
+
+@media only screen and (min-width: 38em) {
+	/* medium 608px */
+
+	
+
+}
+
+@media only screen and (min-width: 60em) {
+	/* large 960px*/
+
+	.content h1 {
+		font-size: 2.5rem;
+	}
+
+
+
+}
+
+
+@media only screen and (min-width: 75em) {}
+
+@media only screen and (min-width: 90em) {
+
+	/* extra large 1440px */
+
+
+
+}
+
+
+@media only screen and (min-width: 101em) {
+
+	/* extra large 1440px */
+	#hero p {
+		font-size: 1.3rem;
+	}
+
+
+}

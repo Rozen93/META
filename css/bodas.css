@@ -1,0 +1,27 @@
+.image{
+	background: url(../img/main/wedding.jpg);
+    background-attachment: fixed;
+}
+
+
+body > main > section:nth-child(3) > div > div > div.col-12.col-lg-8 > div > h2 {
+    margin-top: 0rem;
+    margin-bottom: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+.documento{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 20px;
+    background: linear-gradient(45deg,#071590 0,#ff003c 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.documento:hover{
+    color: white;
+    text-decoration: none;
+}

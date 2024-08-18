@@ -1,0 +1,94 @@
+#hero {
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    background: linear-gradient(45deg, #fe802d 8%, #fe0840 50%, #ac0bd9 90%);
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#hero .lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+    background-attachment: fixed;
+    background-position: 90% 50%;
+    opacity: 0.7;
+    background-image: url("https://www.cbwebsitedesign.co.uk/img/lines-bg.svg");
+}
+
+#hero .content {
+    position: relative;
+    z-index: 2;
+/*     pointer-events: none; */
+    font-family: 'Proxima Nova', sans-serif !important;
+
+}
+
+#hero .content {
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+}
+#hero h1{
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+
+}
+
+#hero p{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+.max-1100 {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.wave-bottom {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    height: 111px;
+    pointer-events: none;
+}
+.wave-bottom svg {
+    height: 111px;
+    width: 100%;
+}
+
+.wave-bottom svg path:first-child {
+    opacity: .15;
+}
+
+.wave-bottom svg path:nth-child(2) {
+    opacity: .3;
+}
+
+@media(max-width:786px){
+    #hero{
+        height: 130vh;
+    }
+}
+
+/* actualizacionesv3 */
+
+

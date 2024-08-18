@@ -1,0 +1,7 @@
+# Non-www to www
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule (.*) https://www.%{HTTP_HOST}/$1 [R,L]
+
+# Non-SSL to SSL
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}/$1 [R,L]
